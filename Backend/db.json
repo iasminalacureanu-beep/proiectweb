@@ -1,0 +1,255 @@
+{
+  "movies": [
+    {
+      "id": "gbqHznpVD64",
+      "Title": "The Matrix",
+      "Year": "1999",
+      "Rated": "R",
+      "Released": "31 Mar 1999",
+      "Runtime": "136 min",
+      "Genre": "Action, Sci-Fi",
+      "Director": "Lana Wachowski, Lilly Wachowski",
+      "Writer": "Lilly Wachowski, Lana Wachowski",
+      "Actors": "Keanu Reeves, Laurence Fishburne, Carrie-Anne Moss",
+      "Plot": "When a beautiful stranger leads computer hacker Neo to a forbidding underworld, he discovers the shocking truth--the life he knows is the elaborate deception of an evil cyber-intelligence.",
+      "Language": "English",
+      "Country": "United States, Australia",
+      "Awards": "Won 4 Oscars. 42 wins & 52 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BN2NmN2VhMTQtMDNiOS00NDlhLTliMjgtODE2ZTY0ODQyNDRhXkEyXkFqcGc@._V1_QL75_UX380_CR0,4,380,562_.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "8.7/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "83%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "73/100"
+        }
+      ],
+      "Metascore": "73",
+      "imdbRating": "8.7",
+      "imdbVotes": "2,243,093",
+      "imdbID": "tt0133093",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "$177,559,005",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+    },
+    {
+      "id": "D2cLGVgicVI",
+      "Title": "The Fast and the Furious",
+      "Year": "2001",
+      "Rated": "PG-13",
+      "Released": "22 Jun 2001",
+      "Runtime": "106 min",
+      "Genre": "Action, Crime, Thriller",
+      "Director": "Rob Cohen",
+      "Writer": "Ken Li, Gary Scott Thompson, Erik Bergquist",
+      "Actors": "Vin Diesel, Paul Walker, Michelle Rodriguez",
+      "Plot": "Los Angeles police officer Brian O'Conner must decide where his loyalty really lies when he becomes enamored with the street racing world he has been sent undercover to end it.",
+      "Language": "English, Spanish",
+      "Country": "United States, Germany",
+      "Awards": "11 wins & 18 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BZGRiMDE1NTMtMThmZS00YjE4LWI1ODQtNjRkZGZlOTg2MGE1XkEyXkFqcGc@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "6.8/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "55%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "58/100"
+        }
+      ],
+      "Metascore": "58",
+      "imdbRating": "6.8",
+      "imdbVotes": "452,738",
+      "imdbID": "tt0232500",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "$144,745,925",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+    },
+    {
+      "id": "5GjYEn_X0ss",
+      "timestamp": 1778519111670,
+      "Title": "The Matrix",
+      "Year": "1999",
+      "Rated": "R",
+      "Released": "31 Mar 1999",
+      "Runtime": "136 min",
+      "Genre": "Action, Sci-Fi",
+      "Director": "Lana Wachowski, Lilly Wachowski",
+      "Writer": "Lilly Wachowski, Lana Wachowski",
+      "Actors": "Keanu Reeves, Laurence Fishburne, Carrie-Anne Moss",
+      "Plot": "When a beautiful stranger leads computer hacker Neo to a forbidding underworld, he discovers the shocking truth--the life he knows is the elaborate deception of an evil cyber-intelligence.",
+      "Language": "English",
+      "Country": "United States, Australia",
+      "Awards": "Won 4 Oscars. 42 wins & 52 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BN2NmN2VhMTQtMDNiOS00NDlhLTliMjgtODE2ZTY0ODQyNDRhXkEyXkFqcGc@._V1_QL75_UX380_CR0,4,380,562_.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "8.7/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "83%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "73/100"
+        }
+      ],
+      "Metascore": "73",
+      "imdbRating": "8.7",
+      "imdbVotes": "2,243,093",
+      "imdbID": "tt0133093",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "$177,559,005",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+    },
+    {
+      "id": "bhKk3gNC2lg",
+      "timestamp": 1778520338936,
+      "Title": "The Matrix",
+      "Year": "1999",
+      "Rated": "R",
+      "Released": "31 Mar 1999",
+      "Runtime": "136 min",
+      "Genre": "Action, Sci-Fi",
+      "Director": "Lana Wachowski, Lilly Wachowski",
+      "Writer": "Lilly Wachowski, Lana Wachowski",
+      "Actors": "Keanu Reeves, Laurence Fishburne, Carrie-Anne Moss",
+      "Plot": "When a beautiful stranger leads computer hacker Neo to a forbidding underworld, he discovers the shocking truth--the life he knows is the elaborate deception of an evil cyber-intelligence.",
+      "Language": "English",
+      "Country": "United States, Australia",
+      "Awards": "Won 4 Oscars. 42 wins & 52 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BN2NmN2VhMTQtMDNiOS00NDlhLTliMjgtODE2ZTY0ODQyNDRhXkEyXkFqcGc@._V1_QL75_UX380_CR0,4,380,562_.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "8.7/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "83%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "73/100"
+        }
+      ],
+      "Metascore": "73",
+      "imdbRating": "8.7",
+      "imdbVotes": "2,243,093",
+      "imdbID": "tt0133093",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "$177,559,005",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+    },
+    {
+      "id": "K9BTkcK4Hq0",
+      "timestamp": 1778520348758,
+      "Title": "The Fast and the Furious",
+      "Year": "2001",
+      "Rated": "PG-13",
+      "Released": "22 Jun 2001",
+      "Runtime": "106 min",
+      "Genre": "Action, Crime, Thriller",
+      "Director": "Rob Cohen",
+      "Writer": "Ken Li, Gary Scott Thompson, Erik Bergquist",
+      "Actors": "Vin Diesel, Paul Walker, Michelle Rodriguez",
+      "Plot": "Los Angeles police officer Brian O'Conner must decide where his loyalty really lies when he becomes enamored with the street racing world he has been sent undercover to end it.",
+      "Language": "English, Spanish",
+      "Country": "United States, Germany",
+      "Awards": "11 wins & 18 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BZGRiMDE1NTMtMThmZS00YjE4LWI1ODQtNjRkZGZlOTg2MGE1XkEyXkFqcGc@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "6.8/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "55%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "58/100"
+        }
+      ],
+      "Metascore": "58",
+      "imdbRating": "6.8",
+      "imdbVotes": "452,738",
+      "imdbID": "tt0232500",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "$144,745,925",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+    },
+    {
+      "id": "SNaj7a2t6vI",
+      "timestamp": 1778520546796,
+      "Title": "The Expendables",
+      "Year": "2010",
+      "Rated": "R",
+      "Released": "13 Aug 2010",
+      "Runtime": "103 min",
+      "Genre": "Action, Adventure, Thriller",
+      "Director": "Sylvester Stallone",
+      "Writer": "Dave Callaham, Sylvester Stallone",
+      "Actors": "Sylvester Stallone, Jason Statham, Jet Li",
+      "Plot": "A CIA operative hires a team of mercenaries to eliminate a Latin dictator and a renegade CIA agent.",
+      "Language": "English, Spanish",
+      "Country": "United States, Bulgaria, Spain, Germany",
+      "Awards": "3 wins & 5 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BNTUwODQyNjM0NF5BMl5BanBnXkFtZTcwNDMwMTU1Mw@@._V1_QL75_UX380_CR0,1,380,562_.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "6.4/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "41%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "45/100"
+        }
+      ],
+      "Metascore": "45",
+      "imdbRating": "6.4",
+      "imdbVotes": "380,153",
+      "imdbID": "tt1320253",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "$103,068,524",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
