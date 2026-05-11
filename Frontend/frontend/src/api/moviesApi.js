@@ -1,14 +1,17 @@
+const BACKEND_URL = 'https://proiectweb-backend.onrender.com';
+ 
 export async function searchMovie(title) {
-  const response = await fetch("/api/movies/search", {
-    method: "POST",
-    headers: { "Content-Type": "application/json" },
+  const response = await fetch(`${BACKEND_URL}/api/movies/search`, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({ title }),
   });
-
+ 
   if (!response.ok) {
     const err = await response.json();
-    throw new Error(err.error || "Nu s-a putut găsi filmul.");
+    throw new Error(err.error || 'Nu s-a putut găsi filmul.');
   }
-
+ 
   return response.json();
 }
+ 
