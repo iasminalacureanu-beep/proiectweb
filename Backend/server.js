@@ -4,7 +4,12 @@ const cors = require("cors");
 
 const app = express();
 
-app.use(cors()); 
+app.use(cors({
+  origin: [
+    'http://localhost:5173',
+    'https://proiectweb-frontend-kvqk.onrender.com' 
+  ]
+}));
 app.use(express.json());
 
 app.get("/api/test", (req, res) => {
