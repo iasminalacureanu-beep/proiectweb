@@ -68,7 +68,7 @@ export default function App() {
         )}
 
         {movie && (
-          <div className="bg-white rounded-xl shadow-xl overflow-hidden flex flex-col md:flex-row border border-gray-100">
+          <div className="bg-white rounded-xl shadow-xl overflow-hidden flex flex-col md:flex-row border border-gray-100 ">
             {/* Poster Film */}
             {movie.Poster !== "N/A" ? (
               <img src={movie.Poster} alt={movie.Title} className="w-full md:w-1/3 object-cover" />
@@ -78,7 +78,7 @@ export default function App() {
               </div>
             )}
             
-â            <div className="p-6 flex flex-col flex-1">
+             <div className="p-6 flex flex-col flex-1">
               <h2 className="text-2xl font-bold text-gray-800 mb-2">{movie.Title} ({movie.Year})</h2>
               <div className="flex gap-4 text-sm text-gray-600 mb-4 font-semibold">
                 <span className="bg-gray-100 px-2 py-1 rounded">Rating: {movie.imdbRating}/10</span>
