@@ -28,7 +28,7 @@ export default function App() {
   const getRecommendation = (ratingStr) => {
     if (!ratingStr || ratingStr === "N/A") return { text: "Rating indisponibil.", color: "text-gray-500" };
     
-    const rating = parseFloat(ratingStr); // Convertim din string în număr
+    const rating = parseFloat(ratingStr); 
     if (rating >= 8.0) {
       return { text: "Ar trebui să vizionați acest film chiar acum!", color: "text-green-600 bg-green-100 border-green-300" };
     } else if (rating < 5.0) {
