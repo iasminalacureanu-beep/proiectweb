@@ -1,19 +1,21 @@
 require("dotenv").config(); 
 const express = require("express");
-const cors = require("cors");
+const cors = require('cors');
 
-const app = express();
+const app = express(); 
 
 app.use(cors({
   origin: [
     'http://localhost:5173',
-    'https://proiectweb-frontend-kvqk.onrender.com' 
+    'https://proiectweb-mu.vercel.app', 
+    'https://proiectweb-frontend-kvqk.onrender.com'
   ]
 }));
+
 app.use(express.json());
 
 app.get("/api/test", (req, res) => {
-  res.json({ message: "Backend-ul pentru filme funcționează perfect!" });
+  res.json({ message: "Backend-ul funcționează!" });
 });
 
 app.post("/api/movies/search", async (req, res) => {
@@ -24,59 +26,26 @@ app.post("/api/movies/search", async (req, res) => {
   }
 
   try {
-    const dbResponse = await fetch(`http://localhost:3000/movies?Title=${encodeURIComponent(title)}`);
-    const dbMovies = await dbResponse.json();
-
-    if (dbMovies.length > 0) {
-      const cachedMovie = dbMovies; 
-      const now = Date.now();
-      
-      const cacheAge = cachedMovie.timestamp ? now - cachedMovie.timestamp : Infinity; 
-      
-      const CACHE_EXPIRATION_TIME = 2 * 60 * 1000; 
-
-      if (cacheAge < CACHE_EXPIRATION_TIME) {
-        console.log(`Filmul "${title}" a fost încărcat din cache (este valid)!`);
-        delete cachedMovie.timestamp; 
-        return res.json(cachedMovie);
-      } else {
-        console.log(`Cache-ul pentru "${title}" a expirat. Se șterge și se actualizează...`);
-        await fetch(`http://localhost:3000/movies/${cachedMovie.id}`, { method: "DELETE" });
-      }
-    }
-
     console.log(`Apelăm OMDb API pentru "${title}"...`);
     const apiKey = process.env.OMDB_API_KEY; 
-    const omdbUrl = `http://www.omdbapi.com/?t=${encodeURIComponent(title)}&apikey=${apiKey}`;
+    const omdbUrl = `https://www.omdbapi.com/?t=${encodeURIComponent(title)}&apikey=${apiKey}`;
     
     const response = await fetch(omdbUrl);
     const data = await response.json();
 
     if (data.Response === "False") {
-      return res.status(404).json({ error: "Filmul nu a fost găsit." });
+      return res.status(404).json({ error: "Filmul nu a fost găsit în baza de date OMDB." });
     }
 
-    const movieToSave = {
-      id: data.imdbID,
-      timestamp: Date.now(), 
-      ...data          
-    };
-
-    await fetch("http://localhost:3000/movies", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify(movieToSave),
-    });
-    console.log(`Filmul "${data.Title}" a fost salvat în baza de date cu o nouă ștampilă de timp!`);
-
     res.json(data);
+
   } catch (error) {
     console.error("Eroare la procesarea filmului:", error.message);
-    res.status(500).json({ error: "Eroare internă la preluarea datelor despre film." });
+    res.status(500).json({ error: "Eroare la comunicarea cu baza de date de filme." });
   }
 });
 
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => {
-  console.log(`Serverul rulează la http://localhost:${PORT}`);
+  console.log(`Serverul rulează pe portul ${PORT}`);
 });
