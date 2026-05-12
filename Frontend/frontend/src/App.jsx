@@ -50,7 +50,7 @@ export default function App() {
             value={searchTerm}
             onChange={(e) => setSearchTerm(e.target.value)}
             placeholder="Introdu numele unui film (ex: The Matrix)..."
-            className="flex-1 px-4 py-3 rounded-lg border-2 border-gray-600 bg-gray-800 text-white placeholder-gray-400 focus:border-brand focus:outline-none"
+            className="flex-1 px-4 py-3 rounded-lg border-2 border-gray-600 bg-gray-800 text-white placeholder-violet-400 focus:border-brand focus:outline-none"
           />
           <button 
             type="submit" 
