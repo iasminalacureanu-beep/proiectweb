@@ -55,7 +55,7 @@ export default function App() {
           <button 
             type="submit" 
             disabled={loading}
-            className="px-6 py-3 bg-brand text-white font-bold rounded-lg hover:bg-brand-dark transition-colors"
+            className="px-6 py-3 bg-brand text-white font-bold italic rounded-lg hover:bg-brand-dark transition-colors"
           >
             {loading ? "Se caută..." : "Caută"}
           </button>

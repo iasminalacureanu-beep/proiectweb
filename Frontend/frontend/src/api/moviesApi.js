@@ -1,4 +1,4 @@
-const BACKEND_URL = 'http://localhost:5000';
+const BACKEND_URL = 'https://proiectweb-backend.onrender.com';
 
 export async function searchMovie(title) {
   try {
