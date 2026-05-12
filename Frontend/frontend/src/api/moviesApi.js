@@ -1,5 +1,4 @@
-const BACKEND_URL = 'https://proiectweb-backend.onrender.com';
-
+const BACKEND_URL = 'https://proiectweb-backend-6o4t.onrender.com';
 export async function searchMovie(title) {
   try {
     const response = await fetch(`${BACKEND_URL}/api/movies/search`, {
